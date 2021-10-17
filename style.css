@@ -245,7 +245,7 @@ input[type="range"] {
 
 /* Library*/
 .library-popup {
-  min-width: 40%;
+  max-width: 40%;
   padding: 1rem;
   justify-content: flex-start;
   overflow-y: scroll;
@@ -255,20 +255,21 @@ input[type="range"] {
 .custom-palette {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100%;
   padding: 2rem;
   flex-wrap: wrap;
 }
 
 .small-preview {
-  min-width: 65%;
+  min-width: 60%;
   display: flex;
   flex: 1;
 }
 
 .custom-palette h4 {
   flex: 1;
+  min-width: 90%;
 }
 
 .small-preview div {
@@ -284,10 +285,9 @@ input[type="range"] {
   font-size: 1.2rem;
   background: rgb(32, 32, 32);
   color: white;
-  min-width: 30%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .sliders {
     position: fixed;
     bottom: 0;
@@ -296,9 +296,12 @@ input[type="range"] {
     margin: 0 15vw;
     z-index: 3;
   }
+  .library-popup {
+    min-width: 80%;
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .color {
     height: 50%;
     flex: 0 0 50%;
