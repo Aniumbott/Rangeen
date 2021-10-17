@@ -201,6 +201,7 @@ input[type="range"] {
 }
 
 .copy-popup h4,
+.copy-popup h3,
 .save-popup h4,
 .library-popup h4 {
   font-size: 2rem;
@@ -225,6 +226,11 @@ input[type="range"] {
   font-size: 1.5rem;
   padding: 1rem;
   margin: 0 2rem;
+}
+
+.save-popup input {
+  max-width: 90%;
+  margin: auto;
 }
 
 .submit-save {
@@ -270,6 +276,7 @@ input[type="range"] {
 .custom-palette h4 {
   flex: 1;
   min-width: 90%;
+  margin: auto;
 }
 
 .small-preview div {
