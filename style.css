@@ -98,6 +98,13 @@ nav h4 {
   color: white;
   cursor: pointer;
   font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.sliders button:hover,
+.close-save:hover,
+.close-library:hover {
+  background: rgb(255, 55, 55);
 }
 
 .controls {
@@ -119,7 +126,13 @@ nav h4 {
   background: rgb(33, 31, 39);
   color: white;
   cursor: pointer;
+  border: none;
   border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.panel button:hover {
+  background: rgb(73, 73, 73);
 }
 
 .panel p {
@@ -211,6 +224,7 @@ input[type="range"] {
 .save-name {
   font-size: 1.5rem;
   padding: 1rem;
+  margin: 0 2rem;
 }
 
 .submit-save {
@@ -222,6 +236,11 @@ input[type="range"] {
   color: white;
   font-size: 1.5rem;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-save:hover {
+  background: rgb(112, 150, 255);
 }
 
 /* Library*/
