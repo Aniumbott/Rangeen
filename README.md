@@ -8,7 +8,7 @@ Its a WebApp to generate **color palettes**.
   * HTML
   * CSS
   * Vanila JS
-  only.
+  * [Chroma JS](https://gka.github.io/chroma.js/) (An online API to work with colors' conversions and scales.)
 * Responssive.
 * Easy to use.
 * Additional functionalities,
